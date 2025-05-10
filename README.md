@@ -1,5 +1,3 @@
-Here’s the full content for your `README.md` file, including the overview and the link to the paper:
-
 ---
 
 # NoProp: Training Neural Networks Without Backpropagation
