@@ -44,27 +44,6 @@ The goal of this project is to implement and evaluate the ideas from the **NoPro
 - **Test Accuracy**: The model achieves a test accuracy of **98.78%**, demonstrating the effectiveness of the NoProp approach.
 - **Visualization**: The `predict_and_plot_random_samples` function provides visual insights into the model's predictions on random test samples.
 
-### How to Use
-
-1. **Install Dependencies**:
-   - Ensure you have Python installed with PyTorch and other required libraries (e.g., torchvision, matplotlib, numpy).
-   - Install dependencies using:
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-2. **Run Training**:
-   - To train the model, execute the cells in the Jupyter notebook (`NoProp.ipynb`).
-
-3. **Evaluate Model**:
-   - The evaluation section in the notebook calculates the test accuracy and visualizes predictions.
-
-4. **Save and Load Models**:
-   - The model can be saved and loaded using the provided functions for reuse and further experimentation.
-
-5. **Visualization**:
-   - Plot and analyze random test samples with predictions using the `predict_and_plot_random_samples` function.
-
 ### Acknowledgments
 
 This implementation is inspired by the paper **"NoProp: Training Neural Networks Without Backpropagation or Forward-Propagation"**. Special thanks to the authors for introducing this innovative approach to training neural networks.
